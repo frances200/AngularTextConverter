@@ -1,0 +1,42 @@
+.container{
+  margin: auto;
+  width: 50%;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+
+    label {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 50px;
+
+      input {
+        border-radius: 10px;
+        border: 5px solid pink;
+        outline: none;
+        color: purple;
+      }
+    }
+
+    button {
+      width: 30%;
+      height: 10%;
+      align-self: center;
+      margin-bottom: 50px;
+      background-color: #bda6ef;
+      border: 2px solid hotpink;
+      border-radius: 20px;
+      outline: none;
+      color: white;
+
+      &:hover{
+        background-color: #dbc9ff;
+      }
+    }
+  }
+}

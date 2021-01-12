@@ -1,0 +1,11 @@
+<div class="container">
+  <form>
+    <label>
+      Text to convert <input type="text" #InputField>
+    </label>
+    <button type="button" (click)="Convert(InputField.value)">Convert</button>
+    <label>
+      Converted text <input #inputElement type="text" readonly value="{{value}}">
+    </label>
+  </form>
+</div>
